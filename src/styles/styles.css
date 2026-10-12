@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form,
+.controles {
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#lista-tareas {
+    list-style: none;
+}
+
+#lista-tareas li {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+/*Para l parte de Prioridades */
+
+.alta {
+    background-color: #e53935;
+}
+
+.media {
+    background-color: #fbc02d;
+    color: black !important;
+}
+
+.baja {
+    background-color: #43a047;
+}
+
+/* para la parte de areas completadas */
+
+.completada {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
